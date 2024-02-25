@@ -1,0 +1,714 @@
+body{
+    background-color: black;
+}
+/*header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: green;
+    height: 118px;
+    width: 100%;
+    
+    a{
+        font-size: 40px;
+    }
+}  
+
+main{
+    background-color: gray;
+    max-width: 100%;
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    .box{
+        
+        
+        box-sizing: border-box;
+        position: relative;
+        
+        left: 10%;
+        
+        background-color: green;
+        max-width: 80%;
+        
+       
+        h2{
+            text-align: center; 
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0%;
+            
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 0%;
+        }
+        .textBox{
+            text-align: center;
+            font-size: 50px;
+            
+        }
+        .textBox1{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+            
+            
+        }
+        .textBox2{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+        }
+        .textBox3{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+        }
+        
+    }
+}
+
+
+h1 {
+    font-size: 30px;
+    color: black;
+    padding-left: 4%;
+    padding-top: 2%;   
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: black  ;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.box1{
+    margin: 0;
+    padding:20px;
+    box-sizing: border-box;
+    
+    
+    left: 10%;
+    
+    background-color: green;
+    max-width: 80%;
+    text-align: center;
+    position: relative;
+    
+    p3{
+        color: white;
+        font-size: 20px;  
+        
+        font-family: Arial, Helvetica, sans-serif;
+        height: calc(120vw/6);
+        width: calc(250vw/6);
+        
+        right: 0;
+        top: 0;
+        overflow: hidden;
+    }
+}
+
+.ggc{  
+    display: none;
+}
+
+.my-photo{
+    display: none;
+}
+
+@media only screen and  (min-width: 820px){
+    
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: green;
+        height: 118px;
+        width: 100%;
+        
+        a{
+            font-size: 23px;
+        }
+    }  
+   
+    main{
+        background-color: gray;
+        max-width: 100%;
+        
+        padding-top: 20px;
+        padding-bottom: 50px;
+    
+        .box{
+            
+            
+            box-sizing: border-box;
+            position: relative;
+            
+            left: 10%;
+            
+            background-color: green;
+            max-width: 80%;
+            
+           
+            h2{
+                text-align: center; 
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 0%;
+                
+            }
+            p{
+                font-size: 30px;
+                text-align: center;
+                
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .textBox{
+                text-align: center;
+            }
+            .textBox1{
+                border: 2px solid black; 
+                padding: 4%; 
+                border-radius: 10px; 
+                background-color: black;
+                color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 5%;
+                font-size: 20px;
+                
+            }
+            .textBox2{
+                border: 2px solid black; 
+                padding: 4%; 
+                border-radius: 10px; 
+                background-color: black;
+                color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 5%;
+                font-size: 20px;
+            }
+            .textBox3{
+                border: 2px solid black; 
+                padding: 4%; 
+                border-radius: 10px; 
+                background-color: black;
+                color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 5%;
+                font-size: 20px;
+            }
+            
+        }
+    }
+    .box1{
+        margin: 0;
+        padding:20px;
+        box-sizing: border-box;
+        
+        
+        left: 10%;
+        
+        background-color: green;
+        max-width: 80%;
+        text-align: center;
+        position: relative;
+        
+        p3{
+            color: white;
+            font-size: 30px;  
+            
+            font-family: Arial, Helvetica, sans-serif;
+            height: calc(120vw/6);
+            width: calc(250vw/6);
+            
+            right: 0;
+            top: 0;
+            overflow: hidden;
+        }
+    }
+}
+
+/*@media only screen and (min-width: 1000px){
+    header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: green;
+    height: 118px;
+    width: 100%;
+    
+    a{
+        font-size: 30px;
+    }
+}
+main{
+    background-color: gray;
+    max-width: 100%;
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    .box{
+        
+        
+        box-sizing: border-box;
+        position: relative;
+        
+        left: 28%;
+        
+        background-color: green;
+        max-width: 43%;
+        
+       
+        h2{
+            text-align: center; 
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0%;
+            
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .textBox{
+            text-align: center;
+        }
+        .textBox1{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+            
+        }
+        .textBox2{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+        }
+        .textBox3{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+        }
+        
+    }
+}
+
+
+h1 {
+    font-size: 30px;
+    color: black;
+    padding-left: 4%;
+    padding-top: 2%;   
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: black  ;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.box1{
+    margin: 0;
+    padding:20px;
+    box-sizing: border-box;
+    
+    
+    left: 28%;
+    
+    background-color: green;
+    max-width: 43%;
+    text-align: center;
+    position: relative;
+    
+    p3{
+        color: white;
+        font-size: 20px;  
+        
+        font-family: Arial, Helvetica, sans-serif;
+        height: calc(120vw/6);
+        width: calc(250vw/6);
+        
+        right: 0;
+        top: 0;
+        overflow: hidden;
+    }
+}
+
+.ggc{  
+    display: block;
+    margin-left: auto;
+    padding-left:auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    left: 75%;
+    
+    height: calc(125vw/6);
+    width: calc(125vw/6);
+    border-radius: 50%;
+}
+
+.my-photo{
+    display: block;
+    margin-right: auto;
+    padding-right:auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    left: 3%;
+    object-fit: cover;
+    
+    height: calc(125vw/6);
+    width: calc(125vw/6);
+    border-radius: 50%;
+    border: 10px solid ; 
+}
+}*/
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: green;
+    height: 118px;
+    width: 100%;
+    
+    a{
+        font-size: 30px;
+    }
+}
+main{
+    background-color: gray;
+    max-width: 100%;
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    .box{
+        
+        
+        box-sizing: border-box;
+        position: relative;
+        
+        left: 28%;
+        
+        background-color: green;
+        max-width: 43%;
+        
+       
+        h2{
+            text-align: center; 
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0%;
+            
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .textBox{
+            text-align: center;
+        }
+        .textBox1{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+            
+        }
+        .textBox2{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+        }
+        .textBox3{
+            border: 2px solid black; 
+            padding: 2.5%; 
+            border-radius: 10px; 
+            background-color: black;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5%;
+        }
+        
+    }
+}
+
+
+h1 {
+    font-size: 30px;
+    color: black;
+    padding-left: 4%;
+    padding-top: 2%;   
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: black  ;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.box1{
+    margin: 0;
+    padding:20px;
+    box-sizing: border-box;
+    
+    
+    left: 28%;
+    
+    background-color: green;
+    max-width: 43%;
+    text-align: center;
+    position: relative;
+    
+    p3{
+        color: white;
+        font-size: 20px;  
+        
+        font-family: Arial, Helvetica, sans-serif;
+        height: calc(120vw/6);
+        width: calc(250vw/6);
+        
+        right: 0;
+        top: 0;
+        overflow: hidden;
+    }
+}
+
+.ggc{  
+    display: block;
+    margin-left: auto;
+    padding-left:auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    left: 75%;
+    
+    height: calc(125vw/6);
+    width: calc(125vw/6);
+    border-radius: 50%;
+}
+
+.my-photo{
+    display: block;
+    margin-right: auto;
+    padding-right:auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    left: 3%;
+    object-fit: cover;
+    
+    height: calc(125vw/6);
+    width: calc(125vw/6);
+    border-radius: 50%;
+    border: 10px solid ; 
+}
+
+@media screen and (min-width:0px) and (max-width: 820px){
+    
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: blue;
+        height: 118px;
+        width: 100%;
+        
+        a{
+            font-size: 23px;
+        }
+    }  
+   
+    main{
+        background-color: red;
+        max-width: 100%;
+        
+        padding-top: 20px;
+        padding-bottom: 50px;
+    
+        .box{
+            
+            
+            box-sizing: border-box;
+            position: relative;
+            
+            left: 10%;
+            
+            background-color: green;
+            max-width: 80%;
+            
+           
+            h2{
+                text-align: center; 
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 0%;
+                
+            }
+            p{
+                font-size: 30px;
+                text-align: center;
+                
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .textBox{
+                text-align: center;
+            }
+            .textBox1{
+                border: 2px solid black; 
+                padding: 4%; 
+                border-radius: 10px; 
+                background-color: black;
+                color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 5%;
+                font-size: 20px;
+                
+            }
+            .textBox2{
+                border: 2px solid black; 
+                padding: 4%; 
+                border-radius: 10px; 
+                background-color: black;
+                color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 5%;
+                font-size: 20px;
+            }
+            .textBox3{
+                border: 2px solid black; 
+                padding: 4%; 
+                border-radius: 10px; 
+                background-color: black;
+                color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 5%;
+                font-size: 20px;
+            }
+            
+        }
+    }
+    .box1{
+        margin: 0;
+        padding:20px;
+        box-sizing: border-box;
+        
+        
+        left: 10%;
+        
+        background-color: green;
+        max-width: 80%;
+        text-align: center;
+        position: relative;
+        
+        p3{
+            color: white;
+            font-size: 30px;  
+            
+            font-family: Arial, Helvetica, sans-serif;
+            height: calc(120vw/6);
+            width: calc(250vw/6);
+            
+            right: 0;
+            top: 0;
+            overflow: hidden;
+        }
+    }
+    .my-photo{display: none;}
+    .ggc{display: none;}
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravee's Website</title>
+    <meta name="description" content="This is the about me portion of Ravee's Website">
+    <link rel="stylesheet" href="about.css">
+
+ <!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    
+    <header>
+        <h1><a style="text-decoration: none;" href="index.html">Ravee Chea/MIS Graduate</a> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a style="text-decoration: none;" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+            <a style="text-decoration: none;" href="about.html">About Me</a> &nbsp;&nbsp;&nbsp;
+            <a style="text-decoration: none;" href="project.html">Projects</a> &nbsp;&nbsp;&nbsp;
+            <a style="text-decoration: none;" href="Resume.html">Resume</a> 
+        </h1>
+    </header>
+
+
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="Images/Family.JPG"></div>
+              <div class="swiper-slide"><img src="Images/Ellie.JPG"></div>
+              <div class="swiper-slide"><img src="Images/Hike.JPG"></div>
+              <div class="swiper-slide"><img src="Images/Mia.JPG"></div>
+              <div class="swiper-slide"><img src="Images/Me.JPG"></div>
+              <div class="swiper-slide"><img src="Images/MeHike.JPG"></div>
+                <div class="swiper-slide"><img src="Images/Me&Nga.JPG"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </main>
+       
+   
+
+
+    <footer>
+    <h2>PERSONAL NARRATIVE</h2>
+    <p>More about me! When I am not learning new skills or sharpening my current abilities I am someone who enjoys being with 
+      family, significant other or friends. You can either find us playing some sort of sport, or on a hike with my two favoite
+      dogs! I really enjoy being around other people and learning from them. I am also someone who is really competitive and 
+      I hate losing but I do enjoy learning from my mistakes so I can improve myself. I would consider myself a hands on learner
+      since I easily memorize steps I've done to complete my tasks. I am highly interested in job oppotunites that utilizes 
+      my degree in MIS. I hope to work at a company that provides me future oppotunites to grow with them. 
+      I prefer companies whose workers are highly motivated and enjoy teaching and learning new skills. 
+    </p>
+    </footer>
+
+   
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

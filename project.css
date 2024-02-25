@@ -1,0 +1,29 @@
+body{
+    background-color: green;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: black;
+    height: 118px;
+    width: 100%;
+
+    a{
+        color: green;
+        font-size: 30px;
+    }
+}
+h1 {
+    font-size: 30px;
+    color: green;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+iframe{
+    margin-left: 25%;
+}
